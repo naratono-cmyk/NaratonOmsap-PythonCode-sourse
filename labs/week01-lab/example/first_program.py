@@ -12,8 +12,9 @@ print("My name is Your Name")
 # Line 2: Your age
 # Line 3: Your favorite hobbyๅ
 # Write your code here:
-
-
+print("Naraton")
+print("19")
+print("Playing Basketball")
 # Exercise 4: Print with Different Content
 # Use print() to display the following (one per line):
 # - A number (any number you like)
@@ -22,7 +23,8 @@ print("My name is Your Name")
 
 # Write your code here:
 
-
+print(30)
+print(3.00)
 
 # Exercise 5: Understanding Print Behavior
 # What happens when you run these? Try to predict before running:
