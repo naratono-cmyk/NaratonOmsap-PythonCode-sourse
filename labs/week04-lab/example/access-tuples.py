@@ -14,9 +14,11 @@ point = (10, 20)
 x, y = point
 print(f"x: {x}, y: {y}")                # x: 10, y: 20
 
-# Multiple assignment using tuples
+# Multiple assignment using tuples  || 
 person = ("Alice", 25, "Engineer")
 name, age, job = person
+# name [0]
+# age [0]
 print(f"Name: {name}, Age: {age}, Job: {job}")
 
 # Swapping variables using tuples

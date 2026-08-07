@@ -4,7 +4,7 @@ def contact_book():
     Contact management system using dictionaries
     Each contact: {"name": str, "phone": str, "email": str, "category": str}
     """
-    
+   
     # Initialize empty contacts dictionary
     # Key: contact name (string), Value: contact info (dictionary)
     contacts = {

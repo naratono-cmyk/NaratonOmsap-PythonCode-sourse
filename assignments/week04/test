@@ -1,0 +1,62 @@
+
+#รับข้อมูล ชื่อจริง ENG ver
+#นับจำนวนสระในช่องข้อความดังกล่าว
+#ตัวอย่างหน้าจอ
+#What is you name? : Boonchoo
+#You have 4 vowels in you text.
+#EX1
+name = input("What is you name? :")
+letters = list(name)
+#print(letter)
+counter = 0
+for char in letters:
+    if char =='a' or char == 'A':
+        counter = counter +1
+
+    elif char =='e' or char == 'E':
+        counter = counter +1
+
+    elif char =='i' or char == 'I':
+        counter = counter +1
+
+    elif char =='o' or char == 'O':
+        counter = counter +1
+
+    elif char =='u' or char == 'U':
+        counter = counter +1
+      
+print("You have",counter, "vowel in you text.")
+
+########################################################################################
+
+#EX2
+name = input("What is you name? :")
+letters = list(name)
+#print(letter)
+counter = 0
+for char in letters:
+    if char =='a' or char == 'A':
+        counter = counter +1
+
+    elif char =='e' or char == 'E':
+        counter = counter +1
+
+    elif char =='i' or char == 'I':
+        counter = counter +1
+
+    elif char =='o' or char == 'O':
+        counter = counter +1
+
+    elif char =='u' or char == 'U':
+        counter = counter +1
+
+a = letters.count('a')
+i = letters.count('i')
+e = letters.count('e')
+o = letters.count('o')
+u = letters.count('u')
+vowel = a + e + i + o + u
+      
+print("You have",counter, "vowel in you text.")
+#print(f"You have {vowel} vowels in you text.")
+    

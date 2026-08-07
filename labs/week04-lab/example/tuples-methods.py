@@ -2,10 +2,10 @@ numbers = (1, 2, 3, 2, 4, 2, 5)
 colors = ("red", "green", "blue")
 
 # Length
-print(f"Length: {len(numbers)}")         # 7
+print(f"Length: {len(numbers)}")         # 7 จำนวนสมาชิก
 
 # Count occurrences
-print(f"Count of 2: {numbers.count(2)}") # 3
+print(f"Count of 2: {numbers.count(2)}") # 3 มีเลขสองสามที่
 
 # Find index
 print(f"Index of 3: {numbers.index(3)}")  # 2
