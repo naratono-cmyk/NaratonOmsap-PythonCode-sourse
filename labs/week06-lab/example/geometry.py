@@ -35,7 +35,7 @@ def calculate_rectangle_area(length, width):
     print(f"Rectangle with length {length} and width {width}")
     print(f"Area = {length} × {width} = {area}")
     print()
-
+##
 print("Calculating rectangle areas:")
 calculate_rectangle_area(5, 3)
 calculate_rectangle_area(10, 7)
@@ -45,7 +45,7 @@ calculate_rectangle_area(10, 7)
 #--------------------------------------------------------------------------------------------------#
 
 
-
+##ww
 # Example 1: Function that returns a value
 def add_numbers(a, b):
     """Adds two numbers and returns the result"""
