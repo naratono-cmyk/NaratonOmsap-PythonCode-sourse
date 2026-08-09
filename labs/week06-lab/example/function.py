@@ -28,6 +28,7 @@ print("This is between separators")
 draw_separator()
 print()
 
+
 # =============================================================================
 # PART 2: FUNCTIONS WITH PARAMETERS
 # =============================================================================
@@ -39,10 +40,12 @@ def greet_person(name):
     print(f"Hello, {name}! Nice to meet you.")
 
 print("Calling greet_person with different names:")
-greet_person("Alice")
+greet_person("Alice") #string = ข้อความ 
 greet_person("Bob")
 greet_person("Charlie")
 print()
+#void = ไม่ส่งค่ากลับ
+
 
 # Example 2: Function with multiple parameters
 def introduce_person(name, age, city):
@@ -52,9 +55,13 @@ def introduce_person(name, age, city):
     print(f"I live in {city}.")
     print()
 
+###รับส่งกัน
+
 print("Calling introduce_person:")
 introduce_person("Diana", 25, "New York")
 introduce_person("Eve", 30, "Los Angeles")
+
+###
 
 # Example 3: Mathematical function
 def calculate_rectangle_area(length, width):
@@ -102,6 +109,7 @@ print(f"Circle with radius {radius}:")
 print(f"Area: {area:.2f}")
 print(f"Circumference: {circumference:.2f}")
 print()
+##มีผลแค่ในloopของตัวเองเท่านั้น
 
 # Example 3: Using returned values in expressions
 def multiply(x, y):
@@ -111,6 +119,28 @@ def multiply(x, y):
 def square(n):
     """Returns the square of a number"""
     return n * n
+
+#--------------------------------------------------------------------------------------------------#
+#--------------------------------------------------------------------------------------------------#
+#--------------------------------------------------------------------------------------------------#
+
+###################################################
+###จากตัวอย่างด้านบน ให้เขียนfuntion ชื่อsquare_root(n):###
+###################################################
+def square_root(n):
+
+    return n** 0.5
+print("Using return values in expressions:")
+result = multiply(4,5) + square(3)
+print(f"multiply(4,5) + square(3) = {multiply(4,5)} + {square(3)} = {result}")
+
+print(f"squareroot of 25 =",square_root(25))
+print()
+
+#--------------------------------------------------------------------------------------------------#
+#--------------------------------------------------------------------------------------------------#
+#--------------------------------------------------------------------------------------------------#
+
 
 print("Using return values in expressions:")
 result = multiply(4, 5) + square(3)
@@ -137,7 +167,7 @@ print()
 def create_profile(name, age=18, country="Unknown"):
     """Creates a user profile with default values"""
     print(f"Profile: {name}, Age: {age}, Country: {country}")
-
+##r
 print("Multiple default parameters:")
 create_profile("Alice")  # All defaults
 create_profile("Bob", 25)  # Age specified
