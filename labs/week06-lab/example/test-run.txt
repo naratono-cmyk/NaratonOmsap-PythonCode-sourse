@@ -1,0 +1,46 @@
+#แนวข้สอบ
+#part1
+#exmple
+#Calling say_hello():
+#Hello, world
+#Welcome to Python functions!
+#example2
+#40รอบ----
+This is between separators
+
+#part2
+#example1
+#Calling greet_person with different names:
+#Hello,Alice! Nice to meet you.
+#Hello,Bob! Nice to meet you.
+#Hello,Charlie! Nice to meet you.
+#example3
+#Calculating rectangle areas:
+#Rectangle with lenght 5 and width 3
+#Area = 5 × 3 = 15
+#Rectangle with lenght 10 and width 7
+#Area = 10 × 7 = 70
+
+#part3
+#example 1
+#Using functions that return values:
+#5 + 3 = 8
+#10 + 7 = 17
+#Sum of both results:25
+
+#part4
+#example 1
+#Using default parameters:
+#Hello, Mr./ms. Smith!
+#Hello, Dr. Johnson!
+#Hello, Prof. Brown!
+#Example 2
+#Multiple default parameters:
+#Profile: Alice
+#Profile: Bob
+#Profile: Charlie
+
+#part6
+#Example1
+#rade Calculator:
+#Score = 

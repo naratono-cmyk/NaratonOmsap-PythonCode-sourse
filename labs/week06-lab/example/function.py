@@ -21,7 +21,7 @@ print()
 # Example 2: Function that performs a task
 def draw_separator():
     """Draws a line separator"""
-    print("-" * 40)
+    print("-" * 40)#ทำแบบนี้40รอบ
 
 draw_separator()
 print("This is between separators")
@@ -68,7 +68,7 @@ def calculate_rectangle_area(length, width):
     """Calculates and displays rectangle area"""
     area = length * width
     print(f"Rectangle with length {length} and width {width}")
-    print(f"Area = {length} × {width} = {area}")
+    print(f"Area = {length} ×cc {width} = {area}")
     print()
 
 print("Calculating rectangle areas:")

@@ -1,7 +1,8 @@
+"""
 class ClassName:
-    """Class docstring"""
+    #Class docstringb#
     
-    def __init__(self, parameters):
+    def __init__(self, parameters): #def = funtion
         # Constructor method
         self.attribute = value
     
@@ -13,3 +14,5 @@ class ClassName:
 myObj = ClassName(parameters)
 print(myObj.attribute)
 resultFromMethod = myObj.method_name()
+
+"""
